@@ -6,20 +6,20 @@ type Friend = {
   picture: string;
   email: string;
   days_since_contact: number;
-  status: "overdue" | "almost due" | "on-track";
+  status: string;
   tags: string[];
   bio: string;
   goal: number;
   next_due_date: string;
 };
 
-const statusLabel = {
+const statusLabel: Record<string, string> = {
   overdue: "Overdue",
   "almost due": "Almost Due",
   "on-track": "On-Track",
 };
 
-const statusStyles = {
+const statusStyles: Record<string, string> = {
   overdue: "bg-[#ff5a5f] text-white",
   "almost due": "bg-[#f4b63d] text-white",
   "on-track": "bg-[#1f7a5c] text-white",
@@ -56,9 +56,11 @@ export default function FriendCard({ friend }: { friend: Friend }) {
 
         <div className="mt-3">
           <span
-            className={`inline-block rounded-full px-[8px] py-[3px] text-[8px] font-semibold leading-none ${statusStyles[friend.status]}`}
+            className={`inline-block rounded-full px-[8px] py-[3px] text-[8px] font-semibold leading-none ${
+              statusStyles[friend.status] || "bg-slate-400 text-white"
+            }`}
           >
-            {statusLabel[friend.status]}
+            {statusLabel[friend.status] || friend.status}
           </span>
         </div>
       </div>
