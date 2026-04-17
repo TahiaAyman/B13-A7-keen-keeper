@@ -1,13 +1,21 @@
+"use client";
+
 type Friend = {
-  status: "overdue" | "almost due" | "on-track";
+  id?: number;
+  name?: string;
+  picture?: string;
+  status: string;
 };
 
 export default function SummaryCards({ friends }: { friends: Friend[] }) {
   const totalFriends = friends.length;
+
   const onTrack = friends.filter((f) => f.status === "on-track").length;
+
   const needAttention = friends.filter(
     (f) => f.status === "overdue" || f.status === "almost due"
   ).length;
+
   const interactions = 12;
 
   const cards = [
