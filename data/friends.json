@@ -1,0 +1,147 @@
+[
+  {
+  "id": 1,
+  "name": "Emma Wilson",
+  "picture": "https://i.pravatar.cc/300?img=32",
+  "email": "emma.wilson@example.com",
+  "days_since_contact": 62,
+  "status": "overdue",
+  "tags": ["family"],
+  "bio": "Former colleague, great mentor",
+  "goal": 30,
+  "next_due_date": "2026-02-27"
+},
+  {
+    "id": 2,
+    "name": "Emma Wilson",
+    "picture": "https://i.pravatar.cc/300?img=32",
+    "email": "emma.wilson@example.com",
+    "days_since_contact": 12,
+    "status": "overdue",
+    "tags": ["family"],
+    "bio": "A close family connection I want to keep stronger.",
+    "goal": 10,
+    "next_due_date": "2026-04-14"
+  },
+  {
+    "id": 3,
+    "name": "Lisa Nakamura",
+    "picture": "https://i.pravatar.cc/300?img=47",
+    "email": "lisa.nakamura@example.com",
+    "days_since_contact": 14,
+    "status": "overdue",
+    "tags": ["work"],
+    "bio": "Former teammate and one of the most supportive friends I know.",
+    "goal": 10,
+    "next_due_date": "2026-04-12"
+  },
+  {
+    "id": 4,
+    "name": "James Wright",
+    "picture": "https://i.pravatar.cc/300?img=15",
+    "email": "james.wright@example.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["hobby", "travel"],
+    "bio": "Travel buddy who is easy to stay connected with.",
+    "goal": 14,
+    "next_due_date": "2026-04-28"
+  },
+  {
+    "id": 5,
+    "name": "David Kim",
+    "picture": "https://i.pravatar.cc/300?img=13",
+    "email": "david.kim2@example.com",
+    "days_since_contact": 6,
+    "status": "overdue",
+    "tags": ["work"],
+    "bio": "A professional connection I do not want to lose.",
+    "goal": 7,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 6,
+    "name": "Emma Wilson",
+    "picture": "https://i.pravatar.cc/300?img=25",
+    "email": "emma.wilson2@example.com",
+    "days_since_contact": 12,
+    "status": "on-track",
+    "tags": ["family"],
+    "bio": "A caring connection who always checks in at the right time.",
+    "goal": 14,
+    "next_due_date": "2026-04-24"
+  },
+  {
+    "id": 7,
+    "name": "Lisa Nakamura",
+    "picture": "https://i.pravatar.cc/300?img=37",
+    "email": "lisa.nakamura2@example.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["work"],
+    "bio": "Creative collaborator and close personal friend.",
+    "goal": 14,
+    "next_due_date": "2026-04-29"
+  },
+  {
+    "id": 8,
+    "name": "James Wright",
+    "picture": "https://i.pravatar.cc/300?img=18",
+    "email": "james.wright2@example.com",
+    "days_since_contact": 4,
+    "status": "almost due",
+    "tags": ["hobby", "travel"],
+    "bio": "Adventure partner and one of my most fun contacts.",
+    "goal": 7,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 9,
+    "name": "David Kim",
+    "picture": "https://i.pravatar.cc/300?img=55",
+    "email": "david.kim3@example.com",
+    "days_since_contact": 9,
+    "status": "almost due",
+    "tags": ["work"],
+    "bio": "Useful contact for both career and personal growth.",
+    "goal": 10,
+    "next_due_date": "2026-04-19"
+  },
+  {
+    "id": 10,
+    "name": "Emma Wilson",
+    "picture": "https://i.pravatar.cc/300?img=49",
+    "email": "emma.wilson3@example.com",
+    "days_since_contact": 4,
+    "status": "on-track",
+    "tags": ["family"],
+    "bio": "Warm and meaningful connection I want to maintain.",
+    "goal": 10,
+    "next_due_date": "2026-04-27"
+  }
+  ,
+{
+  "id": 11,
+  "name": "Lisa Nakamura",
+  "picture": "https://i.pravatar.cc/300?img=24",
+  "email": "lisa.nakamura3@example.com",
+  "days_since_contact": 8,
+  "status": "overdue",
+  "tags": ["work"],
+  "bio": "Important friend from a previous collaboration.",
+  "goal": 10,
+  "next_due_date": "2026-04-18"
+},
+{
+  "id": 12,
+  "name": "James Wright",
+  "picture": "https://i.pravatar.cc/300?img=60",
+  "email": "james.wright3@example.com",
+  "days_since_contact": 2,
+  "status": "on-track",
+  "tags": ["hobby", "travel"],
+  "bio": "Fun and regular connection from weekend activities.",
+  "goal": 14,
+  "next_due_date": "2026-04-30"
+}
+]
