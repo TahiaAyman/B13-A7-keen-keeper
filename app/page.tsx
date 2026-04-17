@@ -9,7 +9,7 @@ export default function Home() {
     <main className="min-h-screen bg-[#f3f6f8]">
       <Banner />
 
-      <SummaryCards friends={friends} />
+      <SummaryCards friends={friends as any} />
 
       <section className="px-4 pb-10 pt-1">
         <div className="mx-auto max-w-5xl">

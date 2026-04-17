@@ -1,10 +1,7 @@
 "use client";
 
 type Friend = {
-  id?: number;
-  name?: string;
-  picture?: string;
-  status: string;
+  status: "on-track" | "overdue" | "almost due";
 };
 
 export default function SummaryCards({ friends }: { friends: Friend[] }) {
@@ -33,7 +30,7 @@ export default function SummaryCards({ friends }: { friends: Friend[] }) {
             key={card.label}
             className="rounded-md border border-slate-200 bg-white px-4 py-6 text-center shadow-sm"
           >
-            <h3 className="text-[34px] font-bold leading-none text-emerald-700">
+            <h3 className="text-[34px] font-bold text-emerald-700">
               {card.value}
             </h3>
             <p className="mt-3 text-[12px] text-slate-400">{card.label}</p>
